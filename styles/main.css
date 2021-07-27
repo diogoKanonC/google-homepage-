@@ -1,0 +1,51 @@
+.content{
+    padding-bottom: 35px;
+}
+
+#sml{
+    margin-top: 47px;
+    height: 233px;
+}
+
+.body{
+    font-size: small;
+}
+
+body{
+    background-color: white;
+    margin: auto;
+    font-family: arial, sans-serif;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(14, 13, 13);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover{
+      text-decoration: underline;
+  }
+
+  #aboutandstore{
+      
+  }
