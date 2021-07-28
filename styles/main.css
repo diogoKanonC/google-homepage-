@@ -2,6 +2,7 @@
 html, body{
     margin: 0;
     height: 100%;
+    color:rgb(14, 13, 13);
 }
 
 body{
@@ -36,7 +37,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(255, 255, 255);
   }
 
 li{
@@ -183,4 +183,32 @@ li a {
     height: 18px;
     margin-left: -33px;
     padding-top: 5px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 10px;
+ }
+
+ #leftfoot{
+    margin: 7px 0 0 12px;
+}
+
+.rightfoot {
+  z-index: 987;
+  float: right;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: right;
+  position:relative;
+}
+
+.ftr{
+    background-color: #f2f2f2;
+    border-top: #e4e4e4;
 }
