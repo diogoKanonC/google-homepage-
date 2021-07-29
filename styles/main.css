@@ -185,6 +185,33 @@ li a {
     padding-top: 5px;
 }
 
+.buttons{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 70px;
+}
+
+#googleButton{
+    position: relative;
+	height: 34px;
+	margin: 3px;
+    color: rgb(85, 84, 84);
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-radius: 2px;
+    padding: 0 15px;
+    overflow: hidden;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+#googleButton:hover{
+    color:rgb(29, 28, 28);
+    border: 1px solid #c6c6c6;
+}
+
 .footer {
     position: fixed;
     left: 0;
